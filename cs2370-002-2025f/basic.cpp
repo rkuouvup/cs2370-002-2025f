@@ -7,6 +7,8 @@
 #include <iostream>
 using namespace std;
 
+int f_to_c(int f_degree);
+
 // return_value_type function_name() {}
 /*int main() {
     // auto i = 5; correct
@@ -28,14 +30,19 @@ using namespace std;
     cout << "The F is " << f << endl;
     
     //c = (f - 32) * (5.0 / 9);
-    c = (f - 32) * ((float) 5.0 / 9);
+    //c = (f - 32) * ((float) 5.0 / 9);
+    c = f_to_c(f);
     cout << "The C is " << c << endl;
-    
     
     return 0;
 }*/
 
-int main() {
+int f_to_c(int f_degree) {
+    int answer = (f_degree - 32) * ((float) 5.0 / 9);
+    return answer;
+}
+
+/*int main() {
     string myString;
     //myString = "Hello World";
     //cin >> myString;
@@ -48,4 +55,4 @@ int main() {
     cout << myString << endl;
     
     return 0;
-}
+}*/
