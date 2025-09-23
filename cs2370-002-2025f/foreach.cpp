@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/*int main() {
     string s;
     int count = 0;
     
@@ -27,4 +27,4 @@ int main() {
     cout << "There are " << count << " uppercase letters" << endl;
     
     return 0;
-}
+}*/
