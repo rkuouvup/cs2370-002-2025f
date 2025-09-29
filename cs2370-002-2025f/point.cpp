@@ -13,3 +13,15 @@ void init_point(point_t& pt, double x, double y) {
     pt.x = x;
     pt.y = y;
 }
+
+void dist_to_origin(point_t p[], int len, double d[]) {
+    point_t org = {0.0, 0.0};
+    for (int i = 0; i < len; i++)
+        d[i] = distance(p[i], org);
+}
+
+void vdist_to_origin(vector<point_t>& p, vector<double>& d) {
+    point_t org = {0.0, 0.0};
+    for (int i = 0; i < p.size(); i++)
+        d[i] = distance(p[i], org);
+}
