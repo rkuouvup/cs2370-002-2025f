@@ -13,8 +13,16 @@ using namespace std;
 
 
 int main() {
-    Restaurant r;
-    r.Print();
-    cout << r.GetName() << endl;
+    Restaurant r1;
+    r1.Print();
+    r1.SetName("Red Tacos");
+    r1.SetRating(5);
+    r1.Print();
+    
+    Restaurant r2;
+    r2.SetName("K's Kitchen");
+    r2.SetRating(5);
+    r2.Print();
+    //cout << r.GetName() << endl;
     return 0;
 }
