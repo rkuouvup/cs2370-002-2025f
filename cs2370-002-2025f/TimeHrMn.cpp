@@ -18,3 +18,25 @@ TimeHrMn::TimeHrMn (int hours, int minutes) {
     }
     this->hours = hours + carry;
 }
+
+void TimeHrMn::Print() const {
+    cout << hours << ":" << minutes << endl;
+}
+
+TimeHrMn TimeHrMn::operator+(TimeHrMn rhs) {
+    TimeHrMn timeTotal(this->hours + rhs.hours, this->minutes + rhs.minutes);
+    return timeTotal;
+}
+
+/*bool TimeHrMn::operator==(TimeHrMn rhs) {
+    return (this->hours == rhs.hours) && (this->minutes == rhs.minutes);
+}*/
+
+bool operator==(const TimeHrMn& lhs, const TimeHrMn& rhs){
+    return (lhs.hours == rhs.hours) && (lhs.minutes == rhs.minutes);
+}
+TimeHrMn operator+(int lhs, TimeHrMn rhs) {
+    TimeHrMn timeTotal(lhs + rhs.hours,  rhs.minutes);
+    return timeTotal;
+}
+
