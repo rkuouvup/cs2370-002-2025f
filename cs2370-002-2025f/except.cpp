@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/*int main() {
     try {
         //throw 20;
         throw out_of_range("Error in line 13");
@@ -18,4 +18,4 @@ int main() {
     }
     
     return 0;
-}
+}*/
