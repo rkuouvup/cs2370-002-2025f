@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/*int main() {
     int a[] = {1, 2, 3, 4, 5};
     int *p = a;
     
@@ -31,4 +31,23 @@ int main() {
     //cout << "dp+1" << (dp+1) << endl;
     
     return 0;
-}
+}*/
+
+/*int main() {
+    int m = 10, n = 20;
+    int *z = &m;
+    
+    // Q1: assign m value to 15 through variable z
+    *z = 15;
+    //&z = 15;
+    // Q2: print the value of variable m through variable z
+    cout << *z << endl;
+    //cout << *&z << endl;
+    //cout << &m << endl;
+    // Q3: assign variable z pointing to variable n
+    z = &n;
+    cout << *z << endl;
+    
+    
+    return 0;
+}*/
