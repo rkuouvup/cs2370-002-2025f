@@ -46,7 +46,7 @@ void LinkedList::Print() {
 }
 
 
-int main() {
+/*int main() {
     LinkedList list;
     list.Prepend(1);
     list.Prepend(2);
@@ -55,4 +55,4 @@ int main() {
     list.Print();
     list.Print();
     return 0;
-}
+}*/
