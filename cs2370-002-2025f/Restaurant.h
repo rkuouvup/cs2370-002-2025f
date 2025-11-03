@@ -10,7 +10,7 @@
 #include <cstdlib>
 using namespace std;
 
-class Restaurant {
+/*class Restaurant {
 private:
     string name;
     int rating;
@@ -26,7 +26,7 @@ public:
     void SetName(string name);
     void SetRating(int myRating);
     void Print() const;
-};
+};*/
 
 
 

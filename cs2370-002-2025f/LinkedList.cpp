@@ -99,7 +99,7 @@ void LinkedList::Print() {
 }
 
 
-int main() {
+/*int main() {
     //LinkedListNode n1(1);
     //LinkedListNode n2(n1);
     
@@ -146,4 +146,4 @@ int main() {
     
     
     return 0;
-}
+}*/

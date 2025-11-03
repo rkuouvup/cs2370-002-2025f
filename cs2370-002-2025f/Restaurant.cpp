@@ -6,7 +6,7 @@
 //
 #include "Restaurant.h"
 
-int Restaurant::nextId = 101;
+/*int Restaurant::nextId = 101;
 
 
 Restaurant::Restaurant() : name("No Name"), rating(-1), id(nextId) {
@@ -35,4 +35,4 @@ void Restaurant::SetName(string name) {
 }
 void Restaurant::SetRating(int myRating) {
     rating = myRating;
-}
+}*/
