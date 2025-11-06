@@ -26,6 +26,9 @@ public:
     void DisplayRestaurant() {
         cout << name << "--" << address << ": " << rating << endl;
     }
+    string GetDescription() const {
+        return Business::GetDescription() + ": " + to_string(rating);
+    }
 private:
     int rating;
 };
@@ -40,7 +43,8 @@ int main() {
     cout << b1.GetDescription() << endl;
     //cout << r1.GetDescription() << endl;
     //cout << "  rating: " << r1.GetRating() << endl;
-    r1.DisplayRestaurant();
+    //r1.DisplayRestaurant();
+    cout << r1.GetDescription() << endl;
     
     
     return 0;
