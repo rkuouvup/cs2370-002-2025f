@@ -18,7 +18,7 @@ public:
     ~GFG() {cout << "Destructor: " << x << " " << y << endl;}
     
 };
-int main() {
+/*int main() {
     //vector<GFG> v;
     //v.reserve(4);
     
@@ -45,4 +45,4 @@ int main() {
     
     
     return 0;
-}
+}*/
