@@ -42,11 +42,11 @@ int TripleInt::MaxItem() {
     return m;
 }
 
-int main() {
+/*int main() {
     TripleItem t1(6, 3, 4);
     TripleItem t2("World", "hello", "UVU");
     cout << t1.MaxItem() << endl;
     cout << t2.MaxItem() << endl;
     
     return 0;
-}
+}*/
